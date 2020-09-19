@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'MyHomePage.dart';
+import 'HomePage.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,12 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Cards UI Example',
       theme: ThemeData(
-
         primarySwatch: Colors.blue,
-
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Cards UI Example'),
+      home: HomePage(),
     );
   }
 }
