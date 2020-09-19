@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'AwesomeCard1.dart';
+import 'AwesomeCard2.dart';
 
 class AwesomePage extends StatefulWidget {
   AwesomePage({Key key}) : super(key: key);
@@ -19,6 +20,7 @@ class _AwesomePageState extends State<AwesomePage> {
           children: [
             AwesomeCard1(),
             Padding(padding: EdgeInsets.only(top: 20)),
+            AwesomeCard2(),
           ],
         ),
       ),
