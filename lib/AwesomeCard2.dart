@@ -16,8 +16,8 @@ class AwesomeCard2 extends StatelessWidget {
         children: [
           Opacity(
             opacity: 0.8,
-            child: Image.network(
-              "https://i.pinimg.com/originals/0b/9d/b9/0b9db98cc5e0c5954e145a1d627f3579.jpg",
+            child: Image.asset(
+              "assets/images/background.jpg",
               fit: BoxFit.fill,
               height: 180,
             ),

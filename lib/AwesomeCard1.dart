@@ -25,8 +25,8 @@ class AwesomeCard1 extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.only(bottomLeft: Radius.circular(200), topRight: Radius.circular(20), topLeft: Radius.circular(20)),
                   ),
-                  child: Image.network(
-                    "https://i.ibb.co/HVbQKGv/16005448753790822.png",
+                  child: Image.asset(
+                    "assets/images/plant.png",
                     height: 200,
                   ),
                 ),
