@@ -10,10 +10,10 @@ class AwesomeCard3 extends StatelessWidget {
       shadowColor: Colors.grey,
       color: Color(0xFF665DDD),
       shape: Border(
-        bottom: BorderSide(color: Colors.grey[500], width: 5),
-        right: BorderSide(color: Colors.grey[400], width: 3),
-        top: BorderSide(color: Colors.grey[300], width: 2),
-        left: BorderSide(color: Colors.grey[200], width: 5),
+        left: BorderSide(color: Colors.grey[100], width: 5),
+        bottom: BorderSide(color: Colors.grey[400], width: 5),
+        top: BorderSide(color: Colors.grey[400], width: 2),
+        right: BorderSide(color: Colors.grey[800], width: 3),
       ),
       child: Image.asset(
         "assets/images/novaki_high_res_white.png",
